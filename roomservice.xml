@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- remote names -->
+  <remote name="sn" fetch="https://github.com/snnbyyds/" />
+  <remote name="gitlab" fetch="https://gitlab.com" />
 
-        <!-- Sync trees -->
-        <project path="device/xiaomi/clover" name="Travelerext/android_device_xiaomi_sdm660-common" remote="github" revision="lineage-20" />
-        <project path="vendor/xiaomi/clover" name="Travelerext/android_vendor_xiaomi_clover" remote="github" revision="lineage-20" />
-        <project path="kernel/xiaomi/sdm660" name="Travelerext/android_kernel_xiaomi_sdm660" remote="github" revision="lineage-20-1" />
-	
+  <!-- Sync trees -->
+  <project path="device/xiaomi/clover" name="Travelerext/android_device_xiaomi_sdm660-common" remote="github" revision="lineage-20" />
+  <project path="vendor/xiaomi/clover" name="Travelerext/android_vendor_xiaomi_clover" remote="github" revision="lineage-20" />
+  <project path="kernel/xiaomi/sdm660" name="Travelerext/android_kernel_xiaomi_sdm660" remote="github" revision="lineage-20-1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 </manifest>
