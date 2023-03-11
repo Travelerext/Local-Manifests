@@ -2,7 +2,7 @@
 <manifest>
   <!-- remote names -->
   <remote name="sn" fetch="https://github.com/snnbyyds/" />
-  <remote name="gitlab" fetch="https://gitlab.com" />
+  <remote name="gitlab" fetch="https://gitlab.com/" />
 
   <!-- Sync trees -->
   <project path="device/xiaomi/clover" name="Travelerext/android_device_xiaomi_sdm660-common" remote="github" revision="lineage-20" />
