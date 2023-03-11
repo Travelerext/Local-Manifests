@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+        <remote name="github"
+                fetch="https://github.com" />
+
+        <remote name="gitlab"
+                fetch="https://gitlab.com" />
+
+        <!-- Sync trees -->
+        <project path="device/xiaomi/clover" name="https://github.com/Travelerext/android_device_xiaomi_sdm660-common" remote="github" revision="lineage-20" />
+        <project path="vendor/xiaomi/clover" name="https://github.com/Travelerext/android_vendor_xiaomi_clover" remote="github" revision="lineage-20" />
+        <project path="kernel/xiaomi/sdm660" name="https://github.com/Travelerext/android_kernel_xiaomi_sdm660" remote="github" revision="lineage-20-1" />
+	
+</manifest>
