@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- remote names -->
-  <remote name="gitlab" fetch="https://gitlab.com/" />
-
   <!-- Sync trees -->
   <project path="device/xiaomi/clover" name="Travelerext/android_device_xiaomi_clover" remote="github" revision="trece" />
   <project path="vendor/xiaomi/clover" name="Travelerext/android_vendor_xiaomi_clover" remote="github" revision="13" />
